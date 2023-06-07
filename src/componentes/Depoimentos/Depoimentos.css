@@ -1,0 +1,61 @@
+.Depoimentos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+  margin-top: 50px;
+}
+.tittleDepoimentos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tittleDepoimentos h2{
+  display: flex;
+  font-weight: 400;
+  font-size: 40px;
+  color: var(--azul);
+}
+.Cards{
+  display: flex;
+  align-items: center;
+  max-width:100%;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-top: 50px;
+}
+.CardDepoimentos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 456px;
+  height: 456px;
+  background-color: #fceccb;
+  border-radius: 52% 48% 68% 40% / 30% 30% 50% 80%;
+  box-shadow:  24px 24px 42px #cabda2,
+  -24px -24px 42px #ffffff48;
+  flex-direction: column;
+  gap: 0;
+  transition: transform 500ms;
+  cursor: default;
+  flex: 1 0 456px;
+}
+.CardDepoimentos p{
+  max-width: 300px;
+  display: block;
+}
+.CardDepoimentos h1{
+  display: block;
+  color: var(--azul);
+  font-family: 'BIZ UDPGothic', sans-serif;
+  font-size: 50px;
+}
+.CardDepoimentos h3{
+  display: inline;
+  color: var(--azul);
+}
+.CardDepoimentos:hover, .CardDepoimentos:focus{
+  transform: scale(1.1);
+  transition: 0.5s ease-in;
+}

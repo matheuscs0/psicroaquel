@@ -1,0 +1,85 @@
+@media (max-width:415px){
+  nav{
+    display: none;
+  }
+  .About{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .About h2{
+    font-size: 30px
+  }
+  .About p{
+    font-size: 10px;
+  }
+  .About img{
+    width: 100px;
+  }
+  .Estrutura{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+  .item{
+    width: 300px;
+    height: 400px;
+  }
+  .item img{
+    width: 100%;
+    height: 100%;
+  }
+  
+  .leftEstrutura p{
+    font-size: 10px;
+  }
+  .AboutUnidade{
+    display: flex;
+    flex-direction: column;
+  }
+  .LeftUnidade{
+    margin-left: 10px;
+  }
+  .CardDepoimentos{
+    width: 300px;
+    height: 400px;
+    transition: none;
+  }
+  .CardDepoimentos:hover, .CardDepoimentos:focus{
+    transform: none;
+  }
+  .CardDepoimentos p{
+    width: 300px;
+    height: 300px;
+  }  
+  .LeftUnidade h3{
+    font-size: 20px;
+
+  }
+  .LeftUnidade p{
+    font-size: 10px;
+  }
+  .RigthUnidade iframe{
+    max-width: 380px;
+    height: 300px;
+  }
+  form{
+    display: none;
+  }
+  .footer{
+    flex-direction: column;
+    gap: 0;
+    height: 100px;
+
+  }
+  .footer img, a{
+    width: 100px;
+    height: auto;
+  }
+  .teaga{
+    margin-top: 50px;
+  }
+  .RightFooter{
+    display: none;
+  }
+}
